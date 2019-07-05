@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/0wmqxg410g1p8xz/export.pkl?dl=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.dropbox.com/s/nwrdht9je3susi7/safetyfirst_dl_model.pkl?dl=1'
+export_file_name = 'safetyfirst_dl_model.pkl'
 
 classes = ['cap','hardhat']
 path = Path(__file__).parent
